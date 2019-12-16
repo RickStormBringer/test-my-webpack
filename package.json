@@ -5,7 +5,8 @@
   "license": "MIT",
   "scripts": {
     "eslint": "eslint ./lib --fix",
-    "test": "istanbul cover node_modules/.bin/_mocha"
+    "test1": "istanbul cover node_modules/.bin/_mocha",
+    "test": "node_modules/.bin/_mocha"
   },
   "dependencies": {
     "@babel/core": "^7.6.4",
